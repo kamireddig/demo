@@ -60,5 +60,10 @@ git tag <tag-name>
 git tag --list
 <lists out the available tags>
 	
+<<<<<<< Updated upstream
 git stash list
 <lists out all the stash available>
+=======
+git stash
+<saves the last updated file as WIP (work in progress)>
+>>>>>>> Stashed changes
