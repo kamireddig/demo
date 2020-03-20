@@ -43,4 +43,13 @@ git mv <old-filename> <new-filename>
 <mv is the git command to move or rename the file>
 	
 git checkout -b <branch-name>
-<checkout is a git command that creates a branch from the current path (in this case master)>	
+<checkout is a git command that helps to move from branch to branch a branch and also creates one>
+	
+git merge <branch-name>
+<merge is a git command that merges the branch and master>
+	
+git branch -d <branch-name>
+<Deletes a branch>
+	
+git branch
+<checks in which state we are currently in. Whether the branch or the master>
