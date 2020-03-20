@@ -38,3 +38,6 @@ git config --global alias.hist "log --online --graph --decorate --all"
 
 git <alias-name> -- <filename>
 <running the alias for the filename only>
+	
+git mv <old-filename> <new-filename>
+<mv is the git command to move or rename the file>
