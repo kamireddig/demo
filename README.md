@@ -23,3 +23,9 @@ git show
 	
 git ls-lart
 <ls-lart is a git command to list all files that git keeps a track>
+
+git reset HEAD <filename>
+<the reset HEAD command is a git command used to remove the file from the staging area. Contents of the file will still be present in this file.>
+	
+git checkout -- <filename>
+<the checkout -- command is a git command to revert the changes back to the last commited state. The contents of the file are removed in this stage>
