@@ -59,3 +59,6 @@ git tag <tag-name>
 	
 git tag --list
 <lists out the available tags>
+	
+git stash list
+<lists out all the stash available>
