@@ -53,3 +53,6 @@ git branch -d <branch-name>
 	
 git branch
 <checks in which state we are currently in. Whether the branch or the master>
+	
+	hey
+	
