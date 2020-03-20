@@ -41,3 +41,6 @@ git <alias-name> -- <filename>
 	
 git mv <old-filename> <new-filename>
 <mv is the git command to move or rename the file>
+	
+git checkout -b <branch-name>
+<checkout is a git command that creates a branch from the current path (in this case master)>	
