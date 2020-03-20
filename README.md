@@ -29,3 +29,12 @@ git reset HEAD <filename>
 	
 git checkout -- <filename>
 <the checkout -- command is a git command to revert the changes back to the last commited state. The contents of the file are removed in this stage>
+	
+git log --oneline --graph --decorate --all
+<Creates a shorter version of the git log>
+	
+git config --global alias.hist "log --online --graph --decorate --all"
+<Creates an alias for a command using the config command of git>
+
+git <alias-name> -- <filename>
+<running the alias for the filename only>
